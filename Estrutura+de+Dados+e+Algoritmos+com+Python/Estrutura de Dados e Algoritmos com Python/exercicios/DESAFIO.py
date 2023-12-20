@@ -2,11 +2,7 @@ import numpy as np
 
 
 def deletar(*matriz):
-    for i in range(len(matriz)):
-        for j in range(len(matriz)):
-            if (matriz[i][7] == 'AUSENTE').all:
-                remove.matriz[i][7]
-                
+
 
 matriz = np.array([[311, 'PROFESSOR II - INGLÊS', 442000020, 0, 0, 0, 'AUSENTE'],
                    [311, 'PROFESSOR II - INGLÊS', 442000085, 4, 26, 30, 'APROVADO'],
@@ -97,4 +93,3 @@ matriz = np.array([[311, 'PROFESSOR II - INGLÊS', 442000020, 0, 0, 0, 'AUSENTE'
 
 
 deletar(matriz)
-print(matriz)
