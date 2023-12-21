@@ -1,9 +1,7 @@
 import utilitarios as ut
 
-ut.soma(1,2,3)
+texto = ut.ler_string('Digite seu nome: ')
+print(texto)
 
-ut.mult(3,2,2)
-
-ut.isPalindromo('arara')
-
-ut.divisao(4,2)
+float = ut.ler_float('Digite um valor com casa decimal: ')
+print(float)
